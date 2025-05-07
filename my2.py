@@ -18,7 +18,7 @@ with open("part1_questions1.txt", "r", encoding="utf-8") as f:
     QUESTIONS = [line.strip() for line in f if line.strip()]
 
 # Config
-TOKEN = os.getenv("7866049366:AAHUskEUNWFlMh3HMo2tYMTVMiO9Sk5IqUs")  # Set in Render
+TOKEN = os.getenv("7866049366:AAEpeVkO_7Pi8ikS3hLnWOLGSCGynp2H9g4")  # Set in Render
 
 def get_question_markup():
     question = random.choice(QUESTIONS)
